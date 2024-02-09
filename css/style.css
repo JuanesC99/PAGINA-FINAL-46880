@@ -1,0 +1,90 @@
+header{
+    background-image: radial-gradient(circle at 50% -20.71%, #ff65b3 0, #ff59c0 10%, #ff4ecd 20%, #ff45d9 30%, #ff3fe6 40%, #f23cf2 50%, #d33ffe 60%, #ad46ff 70%, #7b4fff 80%, #0058ff 90%, #0060ff 100%);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    opacity: .9;
+    position: sticky;
+    top: 0 ;
+    padding: 15px;
+}
+.lista-nav {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+a:hover{
+    list-style: none;
+    font-weight: bold;
+    padding: 20px;
+    background-color: #232323;
+    color: azure;
+}
+
+.enlaces{
+    color: #232323;
+    background:#c5c5c5;
+    padding: 5px 10px;
+    border-radius: 30px;
+}
+
+.banner{
+    background-image:url(../img/366026baf083d9ed730ec30d4dfdf4c5.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 70vh;
+}
+
+header img{
+    width: 120px;
+    
+}
+
+body{
+    background-image: radial-gradient(circle at 50% -20.71%, #ff65b3 0, #ff59c0 10%, #ff4ecd 20%, #ff45d9 30%, #ff3fe6 40%, #f23cf2 50%, #d33ffe 60%, #ad46ff 70%, #7b4fff 80%, #0058ff 90%, #0060ff 100%);
+}
+
+.logo-google{
+    width: 120px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+img{
+    max-width: 100%;
+}
+
+h1{
+    color: white ;
+}
+
+h2{
+    color: white;
+}
+
+footer{
+    background-color:#ff45d9;
+    height: 100px;
+}
+
+@media (min-width: 768px) {
+    body{
+        background-image: radial-gradient(circle at 50% -20.71%, #fffd7b 0, #fffe6e 8.33%, #fffd61 16.67%, #fffc55 25%, #f1f94b 33.33%, #d4f642 41.67%, #b5f23c 50%, #92ed3b 58.33%, #69e93f 66.67%, #28e548 75%, #00e154 83.33%, #00dd62 91.67%, #00d972 100%);
+    }
+}
+
+@media (min-width: 768px) {
+    header{
+        background-image: radial-gradient(circle at 50% -20.71%, #fffd7b 0, #fffe6e 8.33%, #fffd61 16.67%, #fffc55 25%, #f1f94b 33.33%, #d4f642 41.67%, #b5f23c 50%, #92ed3b 58.33%, #69e93f 66.67%, #28e548 75%, #00e154 83.33%, #00dd62 91.67%, #00d972 100%);
+    }
+} 
+
+@media (min-width: 768px) {
+    footer{
+        background-color: #28e548;
+    }
+}
